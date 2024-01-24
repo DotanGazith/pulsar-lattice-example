@@ -5,3 +5,16 @@ This repository contains an example of recovering the periodicity of PSR J0318+0
 The Data was reduced from the Fermi-LAT database using fermitools, and some dedicated auxiliary functions.
 
 Use the requirements file to set up the Python environment, although to install *g6k*, you might want to consult its respective repository (**link**).
+
+## Creating an environment
+```
+git clone https://github/fplll/g6k
+cd g6k
+conda create --name g6k
+conda activate g6k
+conda install numba
+pip install -r requirements.txt
+conda install -c conda-forge fpylll
+python setup.py build_ext --inplace
+python -m pytest
+```
