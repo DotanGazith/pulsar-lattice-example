@@ -4,7 +4,7 @@ This repository contains an example of recovering the periodicity of PSR J0318+0
 
 The Data was reduced from the Fermi-LAT database using fermitools, and some dedicated auxiliary functions.
 
-Use the requirements file to set up the Python environment, although to install *g6k*, you might want to consult its respective repository (*https://github/fplll/g6k*).
+Use the requirements file to set up the Python environment, although to install *g6k*, you might want to consult its respective repository (*https://github.com/fplll/g6k*).
 
 ## Creating an environment
 ```
